@@ -12,8 +12,8 @@ jobs:
         run: echo " kello "   
       - name: multi string
         run: |
-          node -v
-          npm -v
+            node -v
+            npm -v
       - name: python command
         run : |
             import platform
