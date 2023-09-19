@@ -21,9 +21,9 @@ jobs:
           shell: python
         run-window-commands:
           runs-on: windows-latest
-          steps:
-            - name: Directory
+      steps:
+       - name: Directory
               run: Get-Location
-            - name : Directory bash
+       - name : Directory bash
               run : pwd
               shell : bash
