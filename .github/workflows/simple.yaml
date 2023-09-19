@@ -9,7 +9,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
       - name: echo string
-        run: echo "Hello World5"        
+        run: echo " kello "   
       - name: multi string
         run: |
           node -v
