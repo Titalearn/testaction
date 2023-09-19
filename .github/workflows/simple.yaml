@@ -14,3 +14,13 @@ jobs:
         run: |
           node -v
           npm -v
+        - name: python command
+          run : |
+        run-window-commands:
+          runs-on: windows-latest
+          steps:
+            - name: Directory
+              run: Get-Location
+            - name : Directory bash
+              run : pwd
+              shell : bash
